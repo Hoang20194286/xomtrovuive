@@ -1,0 +1,318 @@
+/* css cho html */
+
+.html{
+
+background-image: url(https://scontent.fhan3-1.fna.fbcdn.net/v/t1.15752-9/p75x225/144738930_117448760268185_5809676690109771617_n.png?_nc_cat=109&ccb=1-5&_nc_sid=aee45a&_nc_ohc=4KtaBLoJB6oAX9RaqAS&_nc_ht=scontent.fhan3-1.fna&oh=e1933fb8c92907d37da9f91df5ced0b9&oe=6180755D);
+
+}
+/* css thẻ div làm mờ background */
+.mobackground{
+    width: 100%;
+    height: 90vh;
+    background-color:rgba(0,191,191,0.5);
+    position: relative;
+    background-size: 100% 97vh;
+}
+/* css cho phần thứ 2 của trang web */
+.mobackground2{
+    width: 100%;
+    height: 140vh;
+    background-color:rgba(0,191,191,0.5);
+    position: relative;
+    background-size: 100% 97vh;
+}
+/* css cho background-img trong div 2 */
+.div2{
+    position: absolute;
+    top: 106vh;
+    height: 140vh;
+    width: 100%;
+    background-image: url(https://scontent.fhan4-3.fna.fbcdn.net/v/t1.6435-9/98482650_107127844347965_8416467966790467584_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=e3f864&_nc_ohc=NrcE7avnmy4AX9ZkZkh&_nc_ht=scontent.fhan4-3.fna&oh=480436dd8fb7c86116192e53609d9c88&oe=61826470);
+}
+/* css cho thẻ bên trái */
+.the-trai{
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu6ZUdzzuidPM-qe2t21gOvvV8Xw6wHCaSmg&usqp=CAU);
+    width: 200px;
+    height:300px;
+    top:200px;
+    left:300px;
+}
+/* css cho hình ảnh của anh Trí */
+.the-anh-tri{
+    width: 190px;
+    height:190px;
+    left:5px;
+    position: absolute;
+    background-image: url(https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/174114777_1415976082075766_5434332771191997908_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=88W4v4oIWAEAX8rsaEO&_nc_ht=scontent.fhan3-3.fna&oh=0fa17d310e50dd58df1c6a5e4ce8deb0&oe=617F8C34);
+    background-size: 100%;
+    background-clip: border-box;
+    border-radius: 50%;
+}
+/* css cho anh của anh Khánh */
+.the-anh-khanh{
+    width: 190px;
+    height:190px;
+position: absolute;
+left:5px;
+border-radius: 50%;
+background-image: url(https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/164402683_819252485638462_6175175687466262335_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=STPMm5o_6JoAX-O2D1P&_nc_ht=scontent.fhan3-3.fna&oh=a8bdb470a0e009b2d9fee6bc28ac5e2a&oe=617EDD07);
+background-size: 100%;
+}
+/* css cho thẻ bên phải */
+.the-phai{
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_sOQmMiNGttxBzsyUGi-v81BUrT1w8pOSdQ&usqp=CAU);
+    width: 200px;
+    height:300px;
+    bottom: 100px;
+    left:750px;
+}
+/* css chung cho các thẻ */
+.the{
+    position: relative;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_sOQmMiNGttxBzsyUGi-v81BUrT1w8pOSdQ&usqp=CAU);
+    width: 200px;
+    height:300px;
+    top:50px;
+}
+/* css cho hàng thẻ 1 */
+.hang-the-1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+/* css cho phần đầu thẻ */
+.the-anh{
+    width: 190px;
+    height:190px;
+position: absolute;
+left:5px;
+border-radius: 50%;
+background-size: 100%;
+}
+/* css cho phần chứa thông tin của chung */
+.khungten{
+    position: absolute;
+    top:200px;
+    width: 200px;
+    height: 70px;
+    background-color:rgba(0,191,191,0.5);
+
+}
+/* chèn thêm class để chỉnh khungten */
+.sup{
+    box-sizing: border-box;
+    display:inline-flex;
+}
+/* css cho link facebook */
+/* .linkfacebook{
+    background-color:linear-gradient(to right,yellow,orange);
+} */
+/* css cho chữ trong nút truy cập facebook */
+.ten{
+    margin-top:5px;
+    margin-left:5px;
+    color:red;
+    font-family: 'Georgia', serif;
+    font-size:14px;
+    text-decoration: none;
+    background-color: #dc4a38;
+    color:#fff;
+    padding:7px 15px;
+    border-radius: 10px;
+    height: 14px;
+    cursor: pointer;
+}
+.ten:hover{
+    color:#dc4a38;
+    background-color: #fff;
+}
+/* css icon facebook
+ */
+ .iconfacebook{
+     margin-top: 5px;
+     margin-left:6px;
+     font-size: 1.5rem;
+     color:#ffd4aa;
+ }
+
+/* css chữ ở thẻ ở giữa */
+/* .chu-the-giua{
+        font-weight: bold;
+        font-size: 40px;
+        background-image:linear-gradient(to right bottom,purple,blue);
+        display: inline-block;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip:text;
+
+        
+} */
+
+/* css cho thẻ ở giữa */
+.the-giua{
+    position: absolute;
+    left:535px;
+    top:180px;
+    height: 400px;  
+    margin-block-start: 0px;
+}
+/* css cho ảnh versus */
+.hinh-anh-versus{
+    height:200px;
+    width: 200px;
+    font-size: 100%;
+}
+/* css cho 2 thẻ PR tên 2 chủ tịch  */
+.PR{
+    position:absolute;
+    height:50px;
+    top:100px;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/243931600_559190161981974_765421104968928544_n.png?_nc_cat=104&ccb=1-5&_nc_sid=aee45a&_nc_ohc=oqRsLRf_gdoAX9i_Xo3&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=b7cfc6044fb5da0f760bd3d559606569&oe=617F1635);
+    background-size:250px 50px ;
+    background-repeat: no-repeat;
+}
+
+.TRI{
+    width: 250px;
+    left:150px;
+    border-style:solid;
+    border-width: 2px;
+    border-color:green;
+}
+.KHANH{
+    width: 400px;
+    left:850px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 5%;
+    border-color:green;
+}
+/* css cho header */
+.header{
+    background: url(https://lienquan.garena.vn/asset/images/bg-nav-top.png) top center no-repeat;
+    height:90px;
+    weight:100px;
+    
+}
+.header2{
+    background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/244446089_1226724917829556_9008475002440119807_n.png?_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_ohc=EE0_evib-hwAX855cof&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=a4819a18329534b4e7d345d50261f597&oe=6180FCBF) top center no-repeat;
+    background-size: 100px 100px;
+    height:200px;
+    weight:150px;
+    top:0px;    
+}
+/* css cho chư logo trong header */
+.hoang{
+    display:flex;
+}
+.hoang1{
+    height:50px;
+    width: 50px;
+    margin-right: 7px;
+    
+}
+/* css cho 2 icon PR của 2 thẻ */
+.icon-PR{
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+}
+.the-PR-the-trai{
+        position: absolute;
+        background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/p168x128/243327513_869509163955577_2976825900626256217_n.png?_nc_cat=107&ccb=1-5&_nc_sid=aee45a&_nc_ohc=4Spxr3dajuMAX_hnTfb&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=afdee1ef3ce646702c38d4f9ec7b86f2&oe=6181F7BC);
+        background-size: 200px 300px;
+        width: 200px;
+        height:300px;
+        top:200px;
+        left:20px;
+}
+.the-PR-the-phai{
+    position: absolute;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/p168x128/243490905_838456143505255_9078504172263966928_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=iYCss5QFFrkAX9k74-X&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=b2dcf4082f0d4bd1be96d5cb666d0667&oe=6182D3A5);
+    background-size: 200px 300px;
+    width: 200px;
+    height:300px;
+    top:200px;
+    left:1050px;
+}
+.icon-thong-tin{
+    top:34px;
+    left:6px;
+    position: absolute;
+    font-size: 24px;
+    color:#47d864;
+    
+}
+/* css cho UI hiệu ứng khi click vào thông tin chi tiết */
+#thong-tin-chi-tiet-tong{
+    position: fixed;
+    top:5px;
+    right:300px;
+}
+#thong-tin-chi-tiet{
+    width: 650px;
+    height: 370px;
+    background-color: white;
+    color:#fff;
+    border-width: 2px;
+    border-style:inset;
+    border-color: rgba(146, 25, 140, 0.2);
+    animation: slideInTop ease 1s;
+}
+
+/* tạo animation */
+@keyframes slideInTop {
+    from{
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}
+/* slide đóng */
+@keyframes fadeOut{
+    to{
+        opacity:0;
+    }
+}
+
+/* css cho khối họ và tên */
+.thong-tin-con{
+    display: flex;
+    margin:30px 30px 30px 30px;
+
+    
+}
+.tieu-de{
+    font-size:16px;
+    font-weight: 600;
+    color:#890;
+    min-width: 120px;
+}
+#noi-dung{
+    font-size: 14px;
+    color: #333;
+    flex:1;
+}
+#Exit{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color:#ff623d;
+    color: #fff;
+    padding:12px 20px;
+    border-radius: 50px;
+    margin-left: 300px; 
+    cursor: pointer;
+    transition: opacity .2s ease;
+}
+#Exit:hover{
+    opacity: 0.6;
+}
+
