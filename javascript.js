@@ -45,7 +45,7 @@ function thongtinchitiet(ten='',tuoi='',quequan='',moiquanhe='',instagram=''){
             'NGUYỄN VĂN TRÍ',
             '21',
             'NINH BÌNH',
-            'HẸN HÒ',
+            'ĐỘC THÂN',
             'CHƯA CÓ'
         )
     }function KHANH(){
